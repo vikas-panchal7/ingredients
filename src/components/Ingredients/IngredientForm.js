@@ -25,6 +25,7 @@ const IngredientForm = React.memo((props) => {
               onChange={(event) => {
                 setenteredtitle(event.target.value);
               }}
+              required
             />
           </div>
           <div className="form-control">
@@ -36,6 +37,7 @@ const IngredientForm = React.memo((props) => {
               onChange={(event) => {
                 setentredAmount(event.target.value);
               }}
+              required
             />
           </div>
           <div className="ingredient-form__actions">
